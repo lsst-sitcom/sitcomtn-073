@@ -18,9 +18,31 @@ Forward and reverse grids in azimuth and elevation were taken over several night
 Add content here
 ================
 
-Add content here.
-See the `reStructuredText Style Guide <https://developer.lsst.io/restructuredtext/style.html>`__ to learn how to create sections, links, images, tables, equations, and more.
+03-21-2023:
 
+.. figure:: /_static/ForwardReverse_03_21.png
+
+03-22-2023:
+
+.. figure:: /_static/ForwardReverse_03_22.png
+
+Standard deviation for all measurements:
+
+.. figure:: /_static/ForwardReverse_std.png
+
+The same data in table format:
+
+03-21-2023:
+
+.. include:: /_static/table_0321.txt
+
+03-22-2023:
+
+.. include:: /_static/table_0322.txt
+
+Standard deviations:
+
+.. include:: /_static/table_dAzdElStd.txt
 .. Make in-text citations with: :cite:`bibkey`.
 .. Uncomment to use citations
 .. .. rubric:: References
