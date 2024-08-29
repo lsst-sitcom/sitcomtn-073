@@ -1,10 +1,6 @@
-:tocdepth: 1
-
-.. sectnum::
-
-.. Metadata such as the title, authors, and description are set in metadata.yaml
-
-.. TODO: Delete the note below before merging new content to the main branch.
+##############################
+Relative Pointing Verification
+##############################
 
 .. note::
 
