@@ -9,10 +9,19 @@ Relative Pointing Verification
 Abstract
 ========
 
-Forward and reverse grids in azimuth and elevation were taken over several nights in March 2023. This notebook looks at the relative pointing for the nights of the 21st and the 22nd, which used the same pointing model.
+The goal of the test was to evaluate the accuracy of the telescope's pointing during slewing in different directions. 
 
-Add content here
+Introduction
+============
+
+During the test, the telescope was kept at a fixed altitude while performing both forward and backward tests to achieve this. In the forward test, the telescope increased azimuth positions (e.g., -180, -90, 0, +90, +180). In the backward test, the movement was reversed (e.g., +180, +90, 0, -90, -180). This ensured that accuracy could be assessed across a range of directional changes.
+
+Forward and reverse grids in azimuth and elevation were taken over several nights in March 2023. This `notebook <https://github.com/cmsaunders/dm_notebooks/blob/main/AzEl_ForwardBackward.ipynb>`__ looks at the relative pointing for the nights of the 21st and the 22nd, which used the same pointing model.
+
+Results
 ================
+
+The three plots below show the difference between the actual and commanded pointing when slewing backward and forward, as well as the standard deviation for two separate nights in March 2023.
 
 03-21-2023:
 
@@ -22,11 +31,11 @@ Add content here
 
 .. figure:: /_static/ForwardReverse_03_22.png
 
-Standard deviation for all measurements:
+The standard deviation for all measurements:
 
 .. figure:: /_static/ForwardReverse_std.png
 
-The same data in table format:
+The table below shows the same data in table format:
 
 03-21-2023:
 
